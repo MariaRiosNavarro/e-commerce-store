@@ -23,13 +23,12 @@ const Product = () => {
 
   return (
     <>
-      <h1>Component</h1>
       <section className="detail-wrapper">
+        <h1>{item.title}</h1>
         <div className="card center-column">
           <div className="img-card-wrapper">
             <img src={item.image} alt={item.title} />
           </div>
-          <p>{item.title}</p>
           <p>{item.category}</p>
           <p>{item.description}</p>
           <span className="price">{item.price}</span>

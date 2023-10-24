@@ -1,7 +1,20 @@
 .detail-wrapper {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
   padding: 20rem;
   .card {
+    margin: 0 auto;
+    max-width: 50vw;
+    width: 40rem;
     gap: 3rem;
     font-size: 1.7rem;
+    img {
+      width: 40rem;
+      height: 60rem;
+      object-fit: fill;
+    }
   }
 }
