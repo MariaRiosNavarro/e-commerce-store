@@ -37,8 +37,8 @@ const Shop = () => {
 
   return (
     <>
-      <h1>Shop</h1>
       <section>
+        <h1 className="headline-shop">Welcome</h1>
         <article className="shop">
           {products ? (
             products.map((item, index) => (
