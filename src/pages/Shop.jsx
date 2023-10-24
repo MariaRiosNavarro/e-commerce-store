@@ -37,8 +37,9 @@ const Shop = () => {
 
   return (
     <>
-      <section>
+      <section className="center-column">
         <h1 className="headline-shop">Welcome</h1>
+        <Link to="/">Back</Link>
         <article className="shop">
           {products ? (
             products.map((item, index) => (
@@ -47,7 +48,7 @@ const Shop = () => {
                   <img src={item.image} alt={item.title} />
                 </div>
                 <p>{item.title}</p>
-                <span>{item.price}</span>
+                <span className="price">{item.price}</span>
                 <Link to={`/product/${item.id}`}>Show More</Link>
               </div>
             ))

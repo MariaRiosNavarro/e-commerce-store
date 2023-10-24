@@ -5,8 +5,8 @@ import "./Home.scss";
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
-      <section>
+      <section className="center-column home-section">
+        <h1>Welcome to the Shop</h1>
         <article>
           <Link to="/shop">Shop</Link>
         </article>
