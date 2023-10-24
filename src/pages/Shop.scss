@@ -1,0 +1,23 @@
+.shop {
+  padding: 20rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  .card {
+    gap: 3rem;
+    a {
+      color: violet;
+    }
+    .img-card-wrapper {
+      width: 40rem;
+      height: 50rem;
+      overflow: hidden;
+      border-radius: 8px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+/* -Global Styles*/
+
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  @include robo-light;
+  color: $light-text;
+  background-color: $dark-text;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  @include f-row;
+}
+
+.column {
+  @include f-column;
+}
+
+.center-row {
+  @include center-row;
+}
+
+.center-column {
+  @include center-column;
+}
