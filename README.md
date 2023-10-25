@@ -1,9 +1,11 @@
-# React + Vite
+# e-commerce-store (only Desktop)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Deployment]()
 
-Currently, two official plugins are available:
+<div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# e-commerce-store
+<img src="./public/img/readme1.png" alt="readme picture" width="500px">
+<img src="./public/img/readme2.png"alt="readme picture" width="500px">
+<img src="./public/img/readme3.png" alt="readme picture" width="500px">
+
+</div>
